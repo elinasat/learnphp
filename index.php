@@ -1,19 +1,20 @@
 <?php
-echo "Hello, World!"; // Writes out "Hello, World!" to the browser
-// hello
-//world
-
-/**
- *  
- * long comment
- * some cool stuff
- */
-
-$name = "John Doe"; // Variable to store the name
-$age = 30; // Variable to store the age
-echo $age;
-$age = $age * 2 *3 *4 *5 * 6 * 7 * 8 * 9 * 10; // Update the age variable by multiplying it by 2, 3, 4, 5, 6, 7, 8, 9, and 10
-echo $age;
-
-echo 2 + 2; // Outputs the result of 2 + 2, which is 4
-?>
+$test = 10;
+$test = 3.1;
+$test = "Hello World";
+$test = "õpilane";
+$test = "💩";
+$test = true;
+$test = false;
+$test = null;
+$lol;
+var_dump($test);
+var_dump($lol);
+$test = [1, 2, "three", true];
+var_dump($test);
+$test = new stdClass();
+$test->name = "John";
+var_dump($test);
+$num1 = 10000000000; //
+$num2 = "10000000000";
+var_dump($num1 === $num2);
