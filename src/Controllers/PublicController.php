@@ -103,4 +103,9 @@ class PublicController
     public function forms() {
         view('forms');
     }
+
+    public function answer() {
+        dump($_GET);
+        dump($_POST);
+    }
 }
