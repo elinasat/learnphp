@@ -29,6 +29,11 @@ class ArticlesController
     }
 
     public function view() {
-        dump($_GET['id']);
+        $article = Article::find($_GET['id']);
+        if($article) {
+            view('articles/view', compact('article'));
+        } else {
+            echo 404;
+        }
     }
 }
